@@ -18,5 +18,6 @@ I have, however, included a Google Fonts CDN in my project in order to style the
 
 ## Installation / Run
 
-
 No specific components need to be installed locally.
+
+I published the webapp with GitHub Pages, you can play around with it here : https://annieisok.github.io/ .
