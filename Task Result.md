@@ -14,7 +14,7 @@ I chose these languages as they are the ones that I master the best and believe 
 
 I decided to use vanilla languages because, as stated above, I am more confident at the moment with these technologies.
 Moreover, a web app of this level of complexity was easy to create without the use of 3rd party libraries.
-I have, however included a Google Fonts CDN in my project in order to style the page as desired.
+I have, however, included a Google Fonts CDN in my project in order to style the page as desired.
 
 ## Installation / Run
 
