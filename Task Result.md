@@ -2,13 +2,13 @@
 
 ## Eingesetzte Technologien / Frameworks
 
-I use the following technologies / frameworks in my project:
+For the Meme Generator I used the following technologies / languages :
 
-- JavaScript / jQuery
-- PHP / Symfony
-- ...
+- HTML5
+- CSS3
+- JavaScript 
 
-I chose jQuery because ...
+I chose these languages as they are the ones that I master the best and believe that they were powerful enough to help me deliver the results I wanted.
 
 ## Used 3rd Party Libraries
 
