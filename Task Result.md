@@ -18,23 +18,5 @@ I have, however included a Google Fonts CDN in my project in order to style the 
 
 ## Installation / Run
 
-Describe how we can check your project locally.
 
-For example:
-
----
-
-The following components must be installed locally:
-
-- [nodejs](https://nodejs.org/en/) v13.2.0
-- [.NET Core](https://dotnet.microsoft.com/download) v3.1
-
-To run the project locally, enter the following in the command line / bash:
-
-```console
-$ git clone <linktorepository>
-$ cd <repositoryname>
-$ npm install
-$ npm run start
-```
----
+No specific components need to be installed locally.
