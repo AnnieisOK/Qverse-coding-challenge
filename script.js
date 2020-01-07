@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         selectedFont = textFont.options[textFont.selectedIndex];
         canvas = document.getElementById("canvas-meme");
         ctx = canvas.getContext("2d");
-
         canvas.width = canvas.height = 0;
-
+        // Change font family on change event listener
         textFont.addEventListener("change", function (event) {
             chosenFont = event.target.value;
         });
@@ -57,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Draw main image
         ctx.drawImage(img, 0, 0);
-
+        
         var theInputColor = document.getElementById("font-color");
         var theColor = theInputColor.value;
         ctx.fillStyle = theColor;
