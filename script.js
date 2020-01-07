@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         canvas = document.getElementById("canvas-meme");
         ctx = canvas.getContext("2d");
         canvas.width = canvas.height = 0;
+        
         // Change font family on change event listener
         textFont.addEventListener("change", function (event) {
             chosenFont = event.target.value;
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             };
             reader.readAsDataURL(imageUpload.files[0]);
         });
+        
         //Download meme on click event listener
         downloadBtn.addEventListener("click", function () {
             img = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
@@ -63,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
         ctx.strokeStyle = "black";
         ctx.textAlign = "center";
         var fontSize = canvas.width * textInputSize;
+        
         //Font Family Pacifico loads to canvas after click twice on the Generate Meme button
         ctx.font = fontSize + "px" + " " + chosenFont;
         ctx.lineWidth = fontSize / 20;
